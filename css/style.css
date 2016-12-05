@@ -1,0 +1,4 @@
+body{background:#fcfcfc}html,body{height:100%;margin:0px;padding:0px}#main{min-height:100%}#preFooter{height:50px}#footer{border-top:1px solid #f7f7f7;clear:both;height:50px;vertical-align:middle;margin:-50px auto auto;font-family:"sans-serif", Jura;font-size:18px}.like_a{color:#00ADEF;cursor:pointer}.drop_zone{width:100%;border-radius:5px;border:2px dashed #bbb;margin-top:20px;margin-bottom:20px;text-align:center;padding:20px;font-size:16px}#download_container{margin-top:20px;margin-bottom:20px;text-align:center}#download_container #download{width:100%}#download_container :hidden{display:none}#results{margin-top:20px}#results div{overflow:hidden}#results #left,#results #right{color:#999}.preformatted{font-family:monospace;white-space:pre}
+
+
+/*# sourceMappingURL=style.css.map */
