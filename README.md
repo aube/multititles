@@ -2,4 +2,4 @@
 
 Merge two subtitles files
 
-<a href='http://aube.github.io/multitiles/'>example</a>
+<a href='http://aube.github.io/multititles/'>example</a>
