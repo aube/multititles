@@ -30,7 +30,7 @@ function handleFileSelect(evt, opt_encoding) {
 		opt_encoding = opt_encoding || 'utf-8';
 
 	output.push(
-		'<strong>', escape(file.name), '</strong> (', file.type || 'n/a', ', ', opt_encoding,') - ',
+		'<strong>', (file.name), '</strong> (', file.type || 'n/a', ', ', opt_encoding,') - ',
 		file.size, ' bytes, last modified: ',
 		file.lastModifiedDate ? file.lastModifiedDate.toLocaleDateString() : 'n/a'
 	);
@@ -40,7 +40,7 @@ function handleFileSelect(evt, opt_encoding) {
 
 	reader.onloadend = function(evt) {
 		if (evt.target.readyState == FileReader.DONE) {
-			if (!evt.target.result.match(/[аиюэоыуея]/ig)) {
+			if (evt.target.result.match(/[аиюэоыуеяaeyuio]/ig).length < 100) {
 				handleFileSelect.call(self, _evt, "cp1251");
 				return;
 			}
